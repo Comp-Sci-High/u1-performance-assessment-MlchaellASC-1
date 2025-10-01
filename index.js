@@ -9,6 +9,16 @@ let weworkItems = ["loaner laptop", "whiteboard", "conference room", "couch", "p
 let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice", "Wi-Fi router", "printer", "power strips", "headphones", "USB drives", "chairs", "desks"];
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
 
+let removeditem = weworkItems.shift();
+computerLabItems.push(removeditem);
+computerLabItems[2] = "fixed laptop";
+console.log(mprItems.length);
+
+let mprItemslength = mprItems.length;
+let computerLabItemslength = computerLabItems.length;
+let weworkItemslength = weworkItems.length;
+
+console.log("" + weworkItems.length + computerLabItems.length + mprItems.length);
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
