@@ -29,7 +29,12 @@ let scoreValues = {
     "C": "Challenge",
     "O": "Organization",
     "R": "Resilience"
+    
 }
+scoreValues["C"] = "Consistency";
+scoreValues["O"] = "Ownership";
+scoreValues["E"] = "Excellence";
+console.log(scoreValues);
 
 let afterSchoolClubs = {
     athletic: [
@@ -61,7 +66,7 @@ let afterSchoolClubs = {
         }     
     ]
 }
-
+afterSchoolClubs.athletic[0].club = "British Football Club";
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
