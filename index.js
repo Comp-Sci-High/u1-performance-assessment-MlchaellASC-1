@@ -67,12 +67,8 @@ let afterSchoolClubs = {
     ]
 }
 afterSchoolClubs.athletic[0].club = "British Football Club";
-
-function raccoon(club) {
-console.log("The raccon is happy with" + club + "!");
-raccoon(afterSchoolClubs.athletic[0].club);
-}
-
+afterSchoolClubs.athletic[2].location = "Balcony";
+console.log("9th grade hallway fixed up");
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 4th Floor
