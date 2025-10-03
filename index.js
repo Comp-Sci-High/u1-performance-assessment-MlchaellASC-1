@@ -68,6 +68,11 @@ let afterSchoolClubs = {
 }
 afterSchoolClubs.athletic[0].club = "British Football Club";
 
+function raccoon(club) {
+console.log("The raccon is happy with" + club + "!");
+raccoon(afterSchoolClubs.athletic[0].club);
+}
+
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 4th Floor
