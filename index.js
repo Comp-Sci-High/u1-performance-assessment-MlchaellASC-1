@@ -88,6 +88,16 @@ let takeCareOfPet = function(Snacks, pets)  {
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
+function unlockBalcony(hurryup){
+    let msg = [];
+    for (let i = 0; i < 5; i++) {
+        msg.push(hurryup);
+    
+    }
+    console.log("Open sesame");
+}
+ unlockBalcony("Hurry up!")
+    
 
 
 
